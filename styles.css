@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS','Lucida Grande','Lucida Sans',Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    width:100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+.top{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/f0/9b/c5/view-from-bears-hump.jpg?w=700&h=-1&s=1);
+    background-size: cover;
+    background-position: center;
+}
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height:inherit ;
+    background-color: rgba(0,0,0,0.295);
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:absolute;
+    width: 100%;
+    padding: 0 10vh;
+    color: white;
+    bottom: 5%;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 4vw;
+}
+
+.text .image{
+    background-image: url(https://images.pexels.com/photos/2416419/pexels-photo-2416419.jpeg?cs=srgb&dl=pexels-phil-s-964389-2416419.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center;
+    height:300px ;
+    width: 220px;
+}
+.text{
+    display: flex;
+    width:25%;
+    align-items: center;
+    justify-content:space-between ;
+
+}
